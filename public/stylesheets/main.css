@@ -35,6 +35,9 @@ nav {
   margin: 0 auto;
   margin-left: 10%; }
 
+.bottlePic {
+  width: 20%; }
+
 a {
   text-decoration: none;
   color: white;
