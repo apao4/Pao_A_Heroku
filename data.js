@@ -1,6 +1,6 @@
 const data = {
-    name: "Trevor",
-    role: "confuserator",
+    name: "Allison Pao",
+    role: "un-confuserator",
 
     classic: {
         name: "Classic",
