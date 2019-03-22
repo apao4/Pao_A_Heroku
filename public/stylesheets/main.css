@@ -1,44 +1,116 @@
-body {
-  background-color: white;
-  font-size: 14px;
-  color: #3D3D3D; }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+    font-size: 14px;
+    color: #3D3D3D; }
 
-#home {
-  font-size: 1em;
-  color: #3D3D3D; }
+  #home {
+    font-size: 1em;
+    color: #3D3D3D; }
 
-#home-logo {
-  text-align: center;
-  width: 20%;
-  clear: both;
-  position: absolute; }
+  #home-logo {
+    text-align: center;
+    width: 100%;
+    clear: both; }
 
-h2 {
-  font-size: 3em;
-  text-align: center;
-  margin-top: 100px; }
+  h2 {
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase; }
 
-nav {
-  clear: both; }
+  nav {
+    display: none; }
 
-.menu-item {
-  color: black;
-  text-align: right;
-  float: right;
-  padding: 10px; }
+  .menu-item {
+    color: #3D3D3D;
+    padding: 10px; }
 
-.bottle-thumb {
-  width: 20%;
-  float: left; }
+  .bottle-thumb {
+    width: 80%;
+    float: left; }
 
-#products {
-  text-align: center;
-  margin: 0 auto;
-  margin-left: 10%; }
+  #products {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10%; } }
+@media only screen and (min-width: 601px) {
+  body {
+    background-color: white;
+    font-size: 14px;
+    color: #3D3D3D; }
 
-.bottlePic {
-  width: 19%; }
+  #home {
+    font-size: 1em;
+    color: #3D3D3D; }
 
+  #home-logo {
+    text-align: center;
+    width: 20%;
+    clear: both;
+    position: absolute; }
+
+  h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 100px; }
+
+  #home-intro {
+    display: none; }
+
+  nav {
+    clear: both; }
+
+  .menu-item {
+    color: black;
+    text-align: right;
+    float: right;
+    padding: 10px; }
+
+  .bottle-thumb {
+    width: 25%;
+    float: left;
+    padding: 30px; }
+
+  #products {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 10%; } }
+@media only screen and (max-width: 600px) {
+  .bottlePic {
+    width: 100%; }
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: 0.2em;
+    text-align: center; }
+
+  h4 {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center; }
+
+  p {
+    font-size: 1em;
+    width: 100%;
+    text-align: center; } }
+@media only screen and (min-width: 601px) {
+  .bottlePic {
+    width: 19%; }
+
+  h1 {
+    margin-top: 150px;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.3em; }
+
+  h4 {
+    font-size: 1.5em;
+    text-transform: uppercase; }
+
+  p {
+    font-size: 1.2em;
+    width: 65%; } }
 a {
   text-decoration: none;
   color: white;
