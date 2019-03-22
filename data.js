@@ -6,8 +6,8 @@ const data = {
         name: "Classic",
         desc: "Perfect for everyone",
         info: "Our simplest and most classic design.  This water bottle is perfect for your every day usage or any special occasions.  Available in over 100 colours, there is definitely a Swell for you.",
-        pic1: "classic-white.jpg",
-        pic2: "classic-white.jpg",
+        pic1: "classic-pink.jpg",
+        pic2: "classic-marble.jpg",
         pic3: "classic-pinkmarble.jpg"
     },
 
