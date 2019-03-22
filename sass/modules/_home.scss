@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 479px) {
 body { 
     background-color: $bg-color;
     font-size: 14px;
@@ -50,7 +50,7 @@ nav
 }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 480px) and (max-width: 1023px) {
 body { 
     background-color: $bg-color;
     font-size: 14px;
@@ -68,7 +68,7 @@ body {
     text-align: center;
     width: 20%;
     clear: both;
-    position: absolute;
+    margin: 0 auto;
 }
 
 h2
@@ -98,7 +98,7 @@ nav
 
 .bottle-thumb
 {
-    width: 25%;
+    width: 20%;
     float: left;
     padding: 30px;
 }
@@ -110,3 +110,64 @@ nav
     margin-left: 10%;
 }
 }
+
+@media only screen and (min-width: 1024px) {
+    body { 
+        background-color: $bg-color;
+        font-size: 14px;
+        color: $text-color;
+    }
+    
+    #home
+    {
+        font-size: 1em;
+        color: $text-color;
+    }
+    
+    #home-logo
+    {
+        text-align: center;
+        width: 20%;
+        clear: both;
+        position: absolute;
+    }
+    
+    h2
+    {
+        font-size: 3em;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    #home-intro
+    {
+        display: none;
+    }
+    
+    nav 
+    {
+        clear: both;
+    }
+    
+    .menu-item
+    {
+        color: black;
+        text-align: right;
+        float: right;
+        padding: 10px;
+    }
+    
+    .bottle-thumb
+    {
+        width: 25%;
+        float: left;
+        padding: 30px;
+    }
+    
+    #products
+    {
+        text-align: center;
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    }
