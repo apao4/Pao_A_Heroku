@@ -16,3 +16,7 @@ router.get('/:user', function(req, res, next) {
   res.render('bottledesc', data[req.params.user]);
 });
 module.exports = router;
+
+<html>
+  <h1>Hello</h1>
+</html>
