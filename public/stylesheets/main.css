@@ -8,7 +8,32 @@ body {
   color: #3D3D3D; }
 
 #home-logo {
-  text-align: center; }
+  text-align: center;
+  width: 30%;
+  clear: both; }
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 50px; }
+
+nav {
+  clear: both; }
+
+.menu-item {
+  color: black;
+  text-align: right;
+  float: right;
+  padding: 10px; }
+
+.bottle-thumb {
+  width: 20%;
+  float: left; }
+
+#products {
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 10%; }
 
 a {
   text-decoration: none;
